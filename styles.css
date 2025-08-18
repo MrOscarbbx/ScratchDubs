@@ -1,0 +1,45 @@
+html {
+    background: linear-gradient(to bottom, #fa00bbfa 50%, #ff54e8 100%);
+    height: 100%;
+}
+
+body {
+    position: fixed;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    background: linear-gradient(to bottom, #fa00bbfa 50%, #c73ff8 100%);
+}
+.logo {
+    rotate: -90deg;
+    margin-top: 40vh;
+}
+.logoduende {
+    position: absolute;
+    width: 45vw;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1;
+}
+.titulo {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+.circulos {
+    position: absolute;
+    width: 55vw;
+}
+.circulos.izquierda {
+    left: -25vw;
+}
+.circulos.derecha {
+    right: -25vw;
+    transform: rotate(0deg);
+}
