@@ -1,39 +1,38 @@
 html {
-    background: linear-gradient(to bottom, #fa00bbfa 50%, #ff54e8 100%);
-    height: 100%;
+    width: 100%;
 }
-
 body {
-    position: fixed;
+    color: rgb(255, 255, 255);
     margin: 0;
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    color: white;
     background: linear-gradient(to bottom, #fa00bbfa 50%, #c73ff8 100%);
+    background-attachment: fixed;
+    overflow-x: hidden;
+    width: 100%;
 }
 .logo {
     rotate: -90deg;
-    margin-top: 40vh;
+    margin-top: 15vh;
+    width: 40vw;
 }
 .logoduende {
     position: absolute;
     width: 45vw;
+    top: -10vh;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1;
 }
-.titulo {
+.inicio {
     position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+
 }
 .circulos {
     position: absolute;
+    overflow: hidden;
+    top: -8vh;
     width: 55vw;
 }
 .circulos.izquierda {
@@ -41,5 +40,367 @@ body {
 }
 .circulos.derecha {
     right: -25vw;
-    transform: rotate(0deg);
+}
+.division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    margin-top: -5vh;
+}
+.divisionivisible {
+    height: 35vh;
+}
+.seccion {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.seccion.artwork {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.titulo {
+    align-items: start;
+    text-align: end;
+    font-weight: 200;
+    font-family: "Amstrong";
+    line-height: .91;
+    font-size: 15vw;
+    margin: 0;
+    margin-top: 5vw;
+    letter-spacing: .2vw;
+}
+.artworkTexto{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: start;
+    width: 30%;
+}
+p {
+    font-family: "Poppins";
+    text-align: center;
+    font-size: 1.5vw;
+    justify-self: center;
+    align-self: center;
+    padding: 2vw;
+    color: #ffffff;
+}
+.instagram {
+    display : flex ;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    align-self: center;
+    margin: 0;
+    margin-top: -5vh;
+    
+}
+.instagram img {
+    width: 3vw;
+    margin: 0;
+}
+.instagram p {
+    margin: 0;
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: "Poppins";
+    color: #ffffff;
+}
+.lineas {
+    position: absolute;
+    opacity: .50;
+    width: 60vw;
+    bottom: -40vh;
+    left: -10vw;
+}
+.piezas{
+    position: relative;
+    width: 50%;
+    height: 100%;
+}
+.polilla {
+    width: 70vw;
+}
+.diseño1{
+    position: absolute; top: 0vh; left: 10vw; rotate: -25deg; width: 45vw; 
+}
+.diseño2{
+    position: absolute; top: 35vh; left: -1vw; rotate: -5deg; width: 40vw; 
+}
+.diseño3{
+    position: absolute; top: 25vh; right:-20vw; rotate: 0; width: 40vw; 
+}
+.mandala {
+    position: absolute;
+    width: 18%;
+    top: -40vh;
+    left: -5vw;
+}
+.mandala.derecha {
+    position: absolute;
+    left: initial;
+    right: -5vw;
+    transform: rotate(180deg);
+}
+.seccion_dubs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin: 0;
+}
+.circulos_dubs {
+    position: absolute;
+    width: 60%;
+    z-index: -1;
+}
+.dubs{
+    width: 75%;
+    border-radius: 50%;
+}
+.seccion.premios  {
+    width: 100%;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.lista_premios {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-content: start;
+    flex-wrap: wrap;
+    width: 60%;
+}
+.premio {
+    display: flex;
+    margin: 0!important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.premio p {
+    font-family: "Poppins";
+    width: 65%;
+    font-size: 1.4vw;
+    font-weight: 700;
+    padding: 0;
+}
+.imagen_premio {
+    width: 12vw;
+    margin: 0!important;
+}
+.hongos {
+    position: absolute;
+    width: 30vw;
+    bottom: 0;
+    right: -15vw;
+}
+.libros {
+    position: absolute;
+    bottom: -20vh;
+    left: 30vw;
+    width: 30vw;
+}
+.libros.izquierda {
+    left: -10vw;
+}
+.esquina {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30vw;
+}
+.textoUbicacion {
+    position: relative;
+    left: 5vw;
+    top: 4vw;
+    width: 60vw;
+}
+.ubicacion {
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+    font-size: 2.5vw;
+}
+.ubicacion.fuerte {
+    font-size: 3!important;
+    font-weight: bolder;
+}
+.lunasArriba {
+    position: absolute;
+    width: 40vw;
+    right: 25vw;
+    top: 1.5vh;
+}
+iframe {
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    height: 65vh;
+    border-radius: 15px;
+}
+.sol {
+    position: absolute;
+    width: 60vw;
+    top: 0;
+    right: -30%;
+    z-index: -1;
+}
+.ubicacionImagenes {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.negocio {
+    position: relative;
+    top: 0;
+    width: 35vw;
+    margin-left: 15vw;
+}
+.posion {
+    position: absolute;
+    width: 40vw;
+    top: 50vh;
+    left: 35vw;
+    z-index: -1;
+}
+.esquina.abajo {
+    position: absolute;
+    bottom: -15vh;
+    transform: rotate(-90deg);
+    top: initial;
+    z-index: -1;
+}
+.cabecera {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+    margin-left: 3vw;
+}
+.cotizacion .titulo{
+    display: inline-block;
+    text-align: start;
+    margin: 0;
+    width: 60%;
+}
+.whatsapp {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.whatsappimg{
+    width: 5vw;
+    height: 5vw;
+}
+.whatsapp p {
+    display: inline-block;
+    margin: 0 auto;
+    margin-left: 1vw;
+    padding: 0;
+    font-size: 2vw;
+    font-weight: 700;
+    font-family: "Poppins";
+    color: #ffffff;
+}
+.lista_requerimientos{
+    width: 100%;
+    margin-left: 5vw;
+    margin-top: 5vh;
+    font-weight: 700;
+}
+.textoCotizacion{
+    text-align: start;
+    justify-self: start;
+    font-size: 2vw;
+    width: 70%;
+    padding: 0;
+    margin: 0;
+}
+.texto.lista {
+    font-family: "Poppins";
+    font-size: 2.1vw;
+    margin: 0;
+    letter-spacing: -1px;
+    width: 50vw;
+}
+.texto.elemento {
+    margin: 0;
+    list-style-type: disc;
+    padding-left: 1.5vw;
+    text-align: start;
+    color: #ffffff;
+}
+.metodopago {
+    width: 60%;
+    margin: 0;
+}
+.tituloMetodoPago {
+    font-size: 3vw;
+    margin-top:-3vh;
+    margin-bottom:0vh;
+    font-weight:800;
+}
+.metodos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 1vw;
+}
+.metodo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.icono{
+    width: 8vw;
+}
+.icono.transferencia{
+    width: 5vw;
+}
+.icono.tarjeta{
+    width: 7vw;
+}
+.metodo p {
+    margin: 0;
+    padding: 0;
+}
+.diseño4{
+    position: absolute;
+    bottom: 0;
+    right: -5vw;
+    width: 40%;
+    rotate: -15deg;
+}
+.tamaño{
+    position: absolute;
+    display: flex;
+    bottom: 0;
+    right:25vw;
+    height: 80%;
+}
+.tamaño p {
+    font-size: 2vw;
+}
+
+
+
+@font-face {
+    font-family: "Amstrong";
+    src: url("fonts/amstrong.otf") format("opentype");
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Poppins";
+    src: url("fonts/Poppins-Regular.ttf") format("truetype");
 }
