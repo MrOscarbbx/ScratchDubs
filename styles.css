@@ -435,6 +435,9 @@ iframe {
     p {
         font-size: 3vw;
     }
+    .instagram{
+        margin-top: -3vw;
+    }
     .instagram p{
         font-size: 3vw;
     }
@@ -443,6 +446,7 @@ iframe {
     }
     .lineas{
         width: 100%;
+        top: 9vw;
         rotate: -25deg;
     }
     .mandala {
@@ -452,6 +456,17 @@ iframe {
     .mandala.derecha {
         right: -5vw;
     }
+    .seccion_dubs{
+        width: 130%;
+        height: 50vh;
+    }
+    .dubs{
+        width: 60vw;
+    }
+    .circulos_dubs{
+        width: 100%;
+    }
+
     .seccion.premios {
         flex-direction: column;
         margin-top: 0vh;
@@ -470,13 +485,17 @@ iframe {
         font-size: 2.6vw;
     }
     .libros{
-        width: 40vw;
-        right: -15vw;
+        width: 50vw;
+        right: -20vw;
         left: initial;
-        bottom: 20vw;
+        bottom: 30vw;
     }
-    .seccion.ubicacion{
-        margin-top: 10vh;
+    .libros.izquierda {
+        right: initial;
+        left: -15vw;
+    }
+    .hongos{
+        display: none;
     }
     .textoUbicacion {
         left: 0;
@@ -519,10 +538,12 @@ iframe {
     }
     .textoCotizacion{
         text-align: center;
-        font-size: larger;
+        width: 100%;
+        font-size: 4vw;
     }
     .lista_requerimientos{
         display: flex;
+        margin-left: initial;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -534,7 +555,7 @@ iframe {
         align-items: center;
     }
     .texto.lista{
-        font-size: large;
+        font-size: 4vw;
         margin: initial;
         margin-left: -8vw;
         width: 80%;
@@ -544,13 +565,13 @@ iframe {
     }
     .diseño4{
         right: initial;
-        bottom: -60vh;
+        bottom: -45vh;
         right: 0vw;
         width: 80vw;
     }
     .tamaño {
         right: initial;
-        bottom: -65vh;
+        bottom: -50vh;
         left: 20vw;
     }
     .metodopago{
