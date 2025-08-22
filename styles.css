@@ -378,8 +378,8 @@ iframe {
 .diseño4{
     position: absolute;
     bottom: 0;
-    right: -5vw;
-    width: 40%;
+    left: 2vw;
+    height: 100%;
     rotate: -15deg;
 }
 .tamaño{
@@ -562,12 +562,6 @@ iframe {
     }
     .texto.elemento{
         text-align: center;
-    }
-    .diseño4{
-        right: initial;
-        bottom: -45vh;
-        right: 0vw;
-        width: 80vw;
     }
     .tamaño {
         right: initial;
