@@ -482,7 +482,7 @@ iframe {
     .seccion.premios {
         flex-direction: column;
         margin-top: 0vh;
-        margin-bottom: 10vh;
+        margin-bottom: 15vh;
     }
     .lista_premios{
         width: 100%;
