@@ -379,7 +379,7 @@ iframe {
     bottom: 0;
     height: 100%;
     rotate: -15deg;
-    margin-left: -20vw;
+    margin-left: -10vw;
     margin-right: -6vw;
 }
 .tamaño{
@@ -574,9 +574,11 @@ iframe {
         height: 50vh;
         position: relative;
     }
-    .llave {
+    .diseño4 {
+        width: 100%;
         height: 100%;
-        width: 1vw;
+    }
+    .llave {
     }
     .metodopago{
         margin-top:5vh;
@@ -592,4 +594,15 @@ iframe {
 @font-face {
     font-family: "Poppins";
     src: url("fonts/Poppins-Regular.ttf") format("truetype");
+}
+
+
+.fade-in {
+   opacity: 0;
+   scale: .7;
+   transition: opacity 1s, scale .5s;
+ }
+ .fade-in.visible {
+   opacity: 1;
+   scale: 1;
 }
